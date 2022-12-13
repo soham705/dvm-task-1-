@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&family=Work+Sans&display=swap');
+#logo{
+    height: 5rem;
+    width: 16rem;
+    margin-left: 5%;
+  }
+  .a1{
+    display: flex;
+    align-content: center;
+    margin: 13px 20px;
+    font-size: 1.3vw;
+    color: black;
+    text-decoration: none;
+    flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 550;
+
+  }
+  .a1:hover{
+    text-decoration: underline;
+  }
+  #header{
+    display: flex;
+    
+  
+ }
+ .a2{
+      color: aliceblue; 
+    background-color: rgb(141, 4, 220);
+        font-size: 1.5vw;
+        font-weight: 200;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: 'Work Sans', sans-serif;
+        
+        
+ } 
+ .a2:hover{
+    background-color: rgb(95, 0, 136);
+ }  
+ #a3{
+    display: flex;
+  align-items: center;
+  width: 90rem;
+  justify-content: end;
+  padding-right: 2rem;
+  font-family: 'Work Sans', sans-serif;
+}
+#a1{
+    margin-right: 10rem;
+}
+
+
+
+#firstblock{
+    display: flex;
+    flex-direction: row;
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-top: 4%;
+    background-image: url("1.png");
+    background-position: 100% 10%;
+    background-size: 40rem 20rem;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+}
+#box{
+    background-color: rgb(141, 4, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: aliceblue;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 7px;
+    
+}
+#heading1{
+    font-size: 4rem;
+    
+}
+#image1{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    
+
+}
+#lowertext1{
+    font-size: 1.1rem;
+    color:gray;
+}
+#bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.text1{
+    background-color: rgb(238, 222, 240);
+    margin: 3px;
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 25px;
+    align-content: center;
+    border-radius: 5px;
+}
+#mainsecondblock{
+  background-image: url("2.png");
+  
+    background-position: 100% 10%;
+    background-size: 60rem 80rem;
+    background-repeat: no-repeat;
+  display: flex;
+  justify-items: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  
+}
+#secondblock{
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 4%;
+  font-family: 'Work Sans', sans-serif;
+  background-color: rgb(248, 253, 255);
+  border-radius: 9px;
+  width: 55%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 8%;
+  
+}
+  
+  #image3{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(236, 235, 235);
+    border-radius: 25px;
+    
+
+}
+#lowertext2{
+  color: gray;
+}
+#aa{
+  display: flex;
+  flex-direction: row;
+}
+#box2{
+  
+  margin-left: 20px;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color:  rgb(141, 4, 220);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+#heading2{
+  font-size: 2rem;}
+  #a2{
+    padding: 4%;
+    padding-bottom: 12%;
+  }
+  #alllogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    background-color:rgba(196, 245, 231, 0.51);
+    padding: 12px;
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 12px;
+    
+  }
+  #thirdblock{
+    display: flex;
+    flex-direction: row;
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-top: 4%;
+    background-color: rgb(238, 238, 238);
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+  }
+  .templates{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  #part2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+  }
+  #part1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    
+  }
+
+#bits{
+    
+    height: 10%;
+    width: 10%;
+    
+}
+.final{
+    color: blue;
+    font-size: 2rem;
+    font-family: cursive;
+    background-color: white;
+    
+}
+@media (max-width:1400px){
+  #image1{
+    height: 70%;
+  }
+}
+@media (max-width:1200px){
+  #image1{
+    height:90%;
+    width: 140%;
+  }
+}
+@media (max-width:1100px){
+  #image1{
+    height:90%;
+    width: 160%;
+  }
+  #heading1{
+    font-size: 3rem;
+  }
+  #header{
+    display: block;
+  }
+  #a3{
+    display: flex;
+    align-items: left;
+  width: 50rem;
+  height: 3rem;
+  justify-content: left;
+  padding-right: 2rem;
+  font-family: sans-serif;
+}
+}
+
+
