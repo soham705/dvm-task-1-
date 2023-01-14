@@ -118,8 +118,8 @@
 #mainsecondblock{
   background-image: url("2.png");
   
-    background-position: 100% 10%;
-    background-size: 60rem 80rem;
+    background-position: -100% 10%;
+    background-size: 100rem 80rem;
     background-repeat: no-repeat;
   display: flex;
   justify-items: center;
@@ -224,20 +224,9 @@
 }
 
 
-#mainsecondblock{
-    background-image: url("2.png");
-    
-      background-position: 100% 10%;
-      background-size: 60rem 80rem;
-      background-repeat: no-repeat;
-    display: flex;
-    justify-items: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
-    
-  }
+
+
+      
   #secondblock{
     display: flex;
     flex-direction: row;
