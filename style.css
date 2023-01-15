@@ -252,6 +252,144 @@
       
   
   }
+
+  #Page3{
+    width: 85%;
+    height: 24vw;
+    margin: 0;
+    padding: 10% 5% 10% 10%;
+    background-color: transparent;
+}
+
+#Page3_Background{
+    display: flex;
+    width: auto;
+    height: 35vw;
+    background-color: transparent;
+
+}
+
+#Para_Page3{
+    display: table;
+    width: auto;
+    height: auto;
+    flex: 1;
+    float: left;
+    padding: 10% 5% 2% 0;
+    background-color: transparent;
+}
+
+#Para_Page3 h1{
+    line-height: .75vw;
+    font-size: 4vw;
+}
+
+#Para_Page3 p{
+    line-height: 2vw;
+    font-size: 2vw;
+    color: grey;
+}
+
+#Block1_Page3{
+    display: grid;
+    position: relative;
+    flex: 2;
+    grid:"Block1    Block2" 1fr
+         "Block3    Block4" 1fr/
+           1fr        1fr  ;
+    float: left;
+    background-color: transparent;
+}
+
+#Block1_Page3 div{
+    position: absolute;
+    margin: 3%;
+    padding: 7%;
+    width: 80%;
+    height: 95%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px grey;
+    background-color: white;
+
+}
+
+#Block1_Page3 div h1{
+    position: relative;
+    line-height: .75vw;
+    font-size: 1.25vw;
+      top: 25%;
+    font-weight: bolder;
+
+}
+
+#Block1_Page3 div p{
+    position: relative;
+    line-height: 1.25vw;
+    font-size: 1vw;
+      top: 30%;
+    color: grey;
+}
+
+#Block1_Page3 div a{
+    position: relative;
+    margin: 5% 0 5% 0;
+    padding: 6%;
+    height: 100%;
+    width: auto;
+      top: 10%;
+    border-radius: 5px;
+    background-color:white;
+}
+
+#Block1_Page3 div i{color: black;}
+
+#Sub-Block1{
+    grid-area: Block1;
+      top: 0;
+      left: 10%;
+}
+
+#Sub-Block2{
+    grid-area: Block2;
+      top: 0;
+}
+
+#Sub-Block3{
+    grid-area: Block3;
+      top: 0;
+      left: 10%;
+}
+
+#Sub-Block4{
+    grid-area: Block4;
+      top: 0;
+}
+
+#Sub-Block1:hover{
+    grid-area: Block1;
+      top: -5%;
+      left: 5%;
+}
+
+#Sub-Block2:hover{
+    grid-area: Block1;
+      top: -5%;
+      left: 95%;
+}
+
+#Sub-Block3:hover{
+    grid-area: Block1;
+      top: 95%;
+      left: 7%;
+}
+
+#Sub-Block4:hover{
+    grid-area: Block1;
+      top: 95%;
+      left: 95%;
+}
+
+
   #lowertext2{
     color: gray;
   }
@@ -266,14 +404,14 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 1rem;
       font-weight: 200;
-      color:  rgb(141, 4, 220);
+      color:  black;
       width: fit-content;
       padding: 15px;
       border-radius: 10px;
       border: 2px solid;
   }
   #box2:hover{
-    color: rgb(95, 0, 136);}
+    color: aliceblue;}
   #heading2{
     font-size: 2rem;}
     #a2{
@@ -281,10 +419,9 @@
       padding-bottom: 12%;
     }
 
-    
 
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:450x) {
   #firstblock{
     padding-right: 390%;
     background-size: 400rem 20rem;
